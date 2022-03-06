@@ -156,6 +156,34 @@ footer {
     text-transform: uppercase;
     padding: 20px;
 }
+.mainContainer section a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: black;
+}
+.mainContainer section a:hover {
+    color: #d400ff;
+}
+.blogDiv ul li {
+	border: 2px solid #1a1a1a;
+	display: block;
+	list-style: none;
+	margin: 0 0 13px;
+	overflow: hidden;
+	padding: 0;
+}
+.blogDiv ul li img {
+	border-right: 2px solid #000000;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 376px;
+}
+.blogDiv ul li p {
+    padding: 30px 30px 18px;
+}
 @media (max-width: 576px) {
     body {
         flex-direction: column;
